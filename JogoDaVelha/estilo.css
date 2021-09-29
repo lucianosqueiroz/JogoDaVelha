@@ -1,0 +1,37 @@
+body{
+    background: rgb(70,142,236);
+    font: normal 15pt Arial;
+    text-align: center;
+    
+}
+
+input{
+    background: cornsilk;
+    font-size: 6vw;
+    width: 12vw;
+    height: 12vw;
+    margin: 0;
+    color: black
+}
+
+#player{
+    display: inline;
+}
+
+
+
+#reiniciar{
+    margin-top: 3%;
+    width: 10vw;
+    height: 3vw;
+    font-size: 1em;
+    color: black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.363);
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
