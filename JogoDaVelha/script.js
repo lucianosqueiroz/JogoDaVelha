@@ -58,9 +58,9 @@ function jogar() {
             
         })
     }
+}
 
-
- function  verificaGanhador() { //testa as possibilidades de vitórias
+function  verificaGanhador() { //testa as possibilidades de vitórias
     if (//ganhador por linhas
         box11.value=='X' && box12.value=='X' && box13.value=='X' ||
         box21.value=='X' && box22.value=='X' && box23.value=='X'||
@@ -98,21 +98,4 @@ function jogar() {
     else{
         return;
     }
- }
-
-
-       
-        
-/*
-    if (quemJoga == player1) {
-        box11.value = player1.simbolo
-        quemJoga = player2
-        box11.disable =false
-    } else if(quemJoga == player2) {
-        box11.value = player2.simbolo
-        quemJoga = player1
-        
-    }
-    box11.disable =false*/
-    
 }
